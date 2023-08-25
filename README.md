@@ -31,16 +31,16 @@ If you're new to options, it's essential to understand the basic terminology and
 
 In this repository, you'll find implementations of various option pricing models, including but not limited to:
 
-- Black-Scholes Model
-- Binomial Model
-- Monte Carlo Simulation
+- [Black-Scholes Model](tutorial_notebooks/Black-Scholes-Analysis.ipynb)
+- [Binomial Model](tutorial_notebooks/Black-Scholes-Analysis.ipynb)
+- [Monte Carlo Simulation](tutorial_notebooks/MonteCarlo.ipynb)
 
 and some implementations of stochastic processes that I borrowed from QuantGirl:
 
- - Brownian Motion
- - Geometric Brownian Motion
- - Vasicek Process
- - CIR Process
+ - [Brownian Motion](tutorial_notebooks/QuantGirl/brownian_motion.ipynb)
+ - [Geometric Brownian Motion](tutorial_notebooks/QuantGirl/geometric_brownian_motion.ipynb)
+ - [Vasicek Process](tutorial_notebooks/QuantGirl/vasicek.ipynb)
+ - [CIR Process](tutorial_notebooks/QuantGirl/cir_process.ipynb)
 
 Each model comes with its own set of code files, along with explanations of how the model works and how to use the code effectively.
 
@@ -52,7 +52,7 @@ To make the most of this repository, follow these steps:
 
 2. **Explore the Models:** Browse through the directories for the specific option pricing models you're interested in. Each directory contains the necessary code files and a README explaining the model's theory.
 
-3. **Run the Code:** Open the code files using your preferred programming environment. Follow the instructions in the README to understand how to input parameters and run the calculations.
+3. **Run the Code:** Open the code files using your preferred programming environment. Install the dependencies in [requirements.txt](requirements.txt)
 
 4. **Experiment and Learn:** Tweak the parameters, try different scenarios, and observe how changing inputs affects option prices. This hands-on experimentation will deepen your understanding.
 
@@ -64,8 +64,14 @@ Contributions to this repository are welcome! If you've implemented an additiona
 
 Check out these additional resources to enhance your understanding of option pricing:
 
-- Recommended Books
-- Online Tutorials and Courses
+### Recommended Books
+- **The Concepts and Practice of Mathematical Finance** by Mark S. Joshi ([Amazon link](https://www.amazon.in/Concepts-Practice-Mathematical-Finance-Mathematics/dp/0521514088))
+- **An Elementary Introduction to Mathematical Finance** by Sheldon M. Ross ([Amazon link](https://www.amazon.in/Elementary-Introduction-Mathematical-Finance/dp/0521192536))
+- **Quantitative Finance For Dummies** by Steve Bell ([Amazon link](https://www.amazon.in/Quantitative-Finance-Dummies-Steve-Bell/dp/1118769465))
+
+### Online Tutorials and Courses
+- [QuantGirl](https://quantgirl.blog/)
+- [Investopedia](https://www.investopedia.com/)
 
 Please note that while this repository provides code implementations, it's important to have a solid grasp of the underlying mathematical concepts for effective utilization.
 
